@@ -717,6 +717,7 @@ Shader "Hidden/ltspass_opaque"
             #define LIL_FEATURE_ANIMATE_OUTLINE_UV
             #define LIL_FEATURE_FUR_COLLISION
             #define LIL_FEATURE_EmissionMap
+            #define LIL_FEATURE_OutlineTex
             #define LIL_FEATURE_OutlineWidthMask
             #define LIL_OPTIMIZE_APPLY_SHADOW_FA
             #define LIL_OPTIMIZE_USE_FORWARDADD

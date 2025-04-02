@@ -1,0 +1,34 @@
+{
+    "name": "jp.lilxyzw.lilycalinventory.runtime",
+    "rootNamespace": "jp.lilxyzw.lilycalinventory.runtime",
+    "references": [
+        "nadena.dev.modular-avatar.core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "VRCSDKBase.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vrchat.base",
+            "expression": "",
+            "define": "LIL_VRCSDK3"
+        },
+        {
+            "name": "com.vrchat.avatars",
+            "expression": "",
+            "define": "LIL_VRCSDK3A"
+        },
+        {
+            "name": "nadena.dev.modular-avatar",
+            "expression": "1.9.0",
+            "define": "LIL_MODULAR_AVATAR"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -5,6 +5,12 @@
     },
     "jp.lilxyzw.liltoon": {
       "version": "1.8.5"
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.12.1"
+    },
+    "jp.lilxyzw.lilycalinventory": {
+      "version": "1.4.5"
     }
   },
   "locked": {
@@ -20,6 +26,21 @@
     },
     "jp.lilxyzw.liltoon": {
       "version": "1.8.5",
+      "dependencies": {}
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.12.1",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.7.4",
+        "nadena.dev.ndmf": ">=1.7.1 <2.0.0-a"
+      }
+    },
+    "nadena.dev.ndmf": {
+      "version": "1.7.1",
+      "dependencies": {}
+    },
+    "jp.lilxyzw.lilycalinventory": {
+      "version": "1.4.5",
       "dependencies": {}
     }
   }
